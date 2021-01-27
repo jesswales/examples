@@ -19,3 +19,5 @@ jobs:
       trigger: true
     - set_pipeline: hello-world
       file: concourse-examples/pipelines/hello-world.yml
+    - set_pipeline: time-triggered
+      file: concourse-examples/pipelines/time-triggered.yml
